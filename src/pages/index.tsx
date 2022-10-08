@@ -14,6 +14,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1>{"Hello architect! I'm on Vercel now"}</h1>
+        <h2>{'From branch: develop'}</h2>
         <Button label="Button" onClick={() => {}} primary size="small" />
       </main>
     </div>
